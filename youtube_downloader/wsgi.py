@@ -8,9 +8,16 @@ https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/
 """
 
 import os
+import sys
 
+project_path = '/home/PaulHenryP/youtube_downloader'
+if project_path not in sys.path:
+    sys.path.append(project_path)
+
+# Point to the settings module.
+os.environ['DJANGO_SETTINGS_MODULE'] = 'youtube_downloader.settings'
+
+# Import the WSGI application.
 from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'youtube_downloader.settings')
-
 application = get_wsgi_application()
+

@@ -148,20 +148,20 @@
         const toggleButton = document.getElementById('theme-toggle');
         const rootElement = document.documentElement;
 
-        // Apply saved theme or default to light
+        // Applies saved theme or default to light.
         const savedTheme = localStorage.getItem('theme') || 'light';
         rootElement.setAttribute('data-theme', savedTheme);
 
         toggleButton.addEventListener('click', () => {
-            // Toggle between light and dark themes
+            // Toggles between light and dark themes.
             const currentTheme = rootElement.getAttribute('data-theme');
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
             rootElement.setAttribute('data-theme', newTheme);
 
-            // Save preference
+            // Saves preference.
             localStorage.setItem('theme', newTheme);
 
-            // Update button icon
+            // Updates button icon.
             toggleButton.innerHTML = newTheme === 'dark' 
                 ? '<i class="fas fa-sun"></i>' 
                 : '<i class="fas fa-moon"></i>';
