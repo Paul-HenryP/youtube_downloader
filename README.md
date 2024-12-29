@@ -1,7 +1,7 @@
 # youtube_downloader
-A youtube downloader app using Django and yt_dlp.
+A youtube downloader web app using Django and yt_dlp.
 
-# Useful scripts / setup
+# Useful commands / setup
 Download [yt_dlp](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation), which is an alternative to the pytube module.
 
 `pip install yt_dlp`
@@ -16,5 +16,5 @@ Run app locally:
 
 `python manage.py runserver`
 
-### Helpful information:
+### Helpful information / tutorials:
 [Download YouTube videos using yt_dlp module](https://www.geeksforgeeks.org/python-download-youtube-videos-using-youtube_dl-module/) 
