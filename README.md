@@ -10,7 +10,9 @@ Install django (win).
 
 `py -m pip install Django`
 
+Your project may not work properly until you apply the migrations for app(s).
 
+`python manage.py migrate`
 
 Run app locally:
 
