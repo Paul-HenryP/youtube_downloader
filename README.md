@@ -22,5 +22,11 @@ Run app locally:
 
 `python manage.py runserver`
 
+## Demo
+![image](https://github.com/user-attachments/assets/9c1cba6e-7873-4270-a835-9f64e6f714c6)
+
+
+
+
 ### Helpful information / tutorials:
 [Download YouTube videos using yt_dlp module](https://www.geeksforgeeks.org/python-download-youtube-videos-using-youtube_dl-module/) 
