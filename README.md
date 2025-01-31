@@ -14,7 +14,7 @@ Your project may not work properly until you apply the migrations for app(s):
 
 `python manage.py migrate`
 
-Install ffmpeg with choco for video processing:
+Install ffmpeg with choco for video processing (Might need to run as admin):
 
 `choco install ffmpeg`
 
