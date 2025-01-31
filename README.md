@@ -6,13 +6,17 @@ Download [yt_dlp](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installati
 
 `pip install yt_dlp`
 
-Install django (win).
+Install django (windows):
 
 `py -m pip install Django`
 
-Your project may not work properly until you apply the migrations for app(s).
+Your project may not work properly until you apply the migrations for app(s):
 
 `python manage.py migrate`
+
+Install ffmpeg with choco for video processing:
+
+`choco install ffmpeg`
 
 Run app locally:
 
