@@ -133,9 +133,16 @@
             <input 
                 type="text" 
                 name="inp" 
-                placeholder="Paste YouTube video URL..." 
+                placeholder="Video URL..." 
                 required 
                 class="input-field">
+        
+            <select name="format" class="input-field">
+                <option value="mp4">MP4 (Video)</option>
+                <option value="mov">MOV (Video)</option>
+                <option value="mp3">MP3 (Audio)</option>
+            </select>
+        
             <button type="submit" class="submit-button">
                 <i class="fas fa-download"></i> Download
             </button>
