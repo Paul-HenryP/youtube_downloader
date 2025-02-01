@@ -22,6 +22,9 @@ Run app locally:
 
 `python manage.py runserver`
 
+OR just:
+`pip install -r requirements.txt`
+
 ## Demo
 ![image](https://github.com/user-attachments/assets/9c1cba6e-7873-4270-a835-9f64e6f714c6)
 
